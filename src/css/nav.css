@@ -1,0 +1,45 @@
+:root {
+  --text-color: #667085;
+  --suport-text-color: #101828;
+  --span-text-color: #8E2424;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+.register{
+  background-color: var(--span-text-color);
+  color: #FFF;
+}
